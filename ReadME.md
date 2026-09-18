@@ -36,7 +36,7 @@ The website represents a fictional company named **GreenLeaf Organics Pvt. Ltd.*
 
 ## Folder Structure
 
-GREENLEAF-ORGANICS
+WTF
 │
 ├── index.html
 ├── README.md
@@ -51,8 +51,7 @@ GREENLEAF-ORGANICS
 ## Developed By
 
 Your Name
-
-Assistant Professor / Student
+Prof Priyam Mehta
 
 ---
 

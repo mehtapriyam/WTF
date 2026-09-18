@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase Online Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ShopEase Online Store</h1>
+        <p>Interactive Shopping Experience</p>
+    </header>
+
+
+    <main>
+
+        <!-- Product Section -->
+        <section id="products">
+
+            <h2>Our Products</h2>
+
+            <div class="product-list">
+
+                <div class="product">
+                    <h3>Laptop</h3>
+                    <img id="productImage" src="images/laptop.png" alt="Laptop">
+                    <p class="price">₹50,000</p>
+                    <button>View Product</button>
+                </div>
+
+
+                <div class="product">
+                    <h3>Smartphone</h3>
+                    <p class="price">₹25,000</p>
+                    <button>View Product</button>
+                </div>
+
+
+                <div class="product">
+                    <h3>Headphones</h3>
+                    <p class="price">₹3,000</p>
+                    <button>View Product</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- User Input Section -->
+        <section id="interaction">
+
+            <h2>Customer Interaction</h2>
+
+            <label for="customerName">
+                Customer Name:
+            </label>
+
+            <input type="text" id="customerName">
+
+            <br><br>
+
+            <button id="welcomeButton">
+                Show Welcome Message
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+
+        <!-- Feedback Section -->
+        <section id="feedback">
+
+            <h2>Feedback</h2>
+
+            <select id="rating">
+
+                <option value="">Select Rating</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Average</option>
+                <option value="1">Poor</option>
+
+            </select>
+
+            <p id="ratingMessage"></p>
+
+        </section>
+
+
+        <!-- Theme Section -->
+        <section id="theme">
+
+            <h2>Theme</h2>
+
+            <button id="themeButton">
+                Change Theme
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 ShopEase Online Store
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
