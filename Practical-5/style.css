@@ -1,0 +1,222 @@
+/* ==========================================
+   CityCare Hospital - Patient Registration
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f9;
+    color: #333;
+}
+
+
+/* ==========================================
+   Header
+   ========================================== */
+
+header {
+    background: linear-gradient(135deg, #E3F2FD, #FFFFFF);
+    color: #1565C0;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid #26C6DA;
+}
+
+.hospital-logo {
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/* ==========================================
+   Main Section
+   ========================================== */
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+
+/* ==========================================
+   Registration Form
+   ========================================== */
+
+.registration-form {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #1565c0;
+}
+
+
+/* ==========================================
+   Labels
+   ========================================== */
+
+label {
+    font-weight: bold;
+}
+
+
+/* ==========================================
+   Input Fields
+   ========================================== */
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   Textarea
+   ========================================== */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================
+   Focus Effect
+   ========================================== */
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1565c0;
+    box-shadow: 0 0 4px rgba(21, 101, 192, 0.3);
+}
+
+
+/* ==========================================
+   Radio Buttons & Checkbox
+   ========================================== */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+/* ==========================================
+   Buttons
+   ========================================== */
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #1565c0;
+    color: white;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0d47a1;
+}
+
+
+#removeFile {
+    margin-top: 10px;
+    background-color: #e53935;
+    color: white;
+}
+
+#removeFile:hover {
+    background-color: #c62828;
+}
+
+
+/* ==========================================
+   Messages
+   ========================================== */
+
+#validationMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#fileMessage {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
+/* ==========================================
+   Footer
+   ========================================== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3eaf0;
+    margin-top: 20px;
+}
+
+
+/* ==========================================
+   Responsive Design
+   ========================================== */
+
+@media (max-width: 600px) {
+
+    .registration-form {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
