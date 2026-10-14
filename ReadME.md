@@ -80,17 +80,21 @@ responsive visual styling - Excel test-case sheet for student testing
 mean patient information is saved to a database. Production systems
 require secure server-side validation and storage.
 
-### Practical 6 --- WanderGo Travels Pvt. Ltd. (Planned / In Progress)
+### Practical 6 — WanderGo Travels Pvt. Ltd. (Completed)
 
 **Aim:** Implement asynchronous JavaScript using timers, callbacks,
 Fetch API/AJAX, and browser storage.
 
-Planned work: - Responsive travel portal using HTML5 and CSS3 -
-Promotional behaviour using `setTimeout()` and `setInterval()` -
-Callback functions for asynchronous tasks - Fetch travel-package data
-from a local JSON file or REST API - Render retrieved JSON data
-dynamically - Loading states and error handling - Use `localStorage` for
-preferences and `sessionStorage` for session-specific information
+**Implemented features:**
+- Responsive travel portal using HTML5 and CSS3
+- Promotional messages using `setTimeout()` and `setInterval()`
+- Callback-based asynchronous task
+- Fetch API to retrieve travel packages from `destinations.json`
+- Dynamic destination cards and filtering
+- Loading indicators and error handling
+- Theme and destination preferences using `localStorage`
+- Browser session information using `sessionStorage`
+- Travel package refresh and destination selection
 
 ## Suggested Folder Structure
 
