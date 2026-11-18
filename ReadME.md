@@ -155,3 +155,31 @@ CHARUSAT University
 ## License
 
 This repository is intended for educational and academic purposes.
+
+### Practical 7 — Central City Library Portal (Completed)
+
+**Aim:** Develop a basic server-side web application using Node.js and Express.js to demonstrate request-response handling, routing, session management, and user authentication.
+
+**Implemented features:**
+- Express.js server configuration using Node.js
+- Multiple routes: Home, About, Login, Dashboard, and Logout
+- HTTP request and response handling using `req` and `res`
+- Session management using `express-session`
+- Predefined Student and Staff login credentials
+- Authentication middleware for protected routes
+- Restricted Dashboard access for unauthenticated users
+- Automatic redirection to the Login page
+- Logout functionality with session destruction
+- Invalid login handling and error messages
+- Responsive library portal interface using HTML5 and CSS3
+
+**Technologies Used:**
+- Node.js
+- Express.js
+- express-session
+- JavaScript
+- HTML5 and CSS3
+
+**Testing:** Verified routing, Student and Staff authentication, invalid login, session persistence, protected Dashboard access, and logout functionality.
+
+**Note:** This is an academic demonstration using predefined credentials and in-memory session storage. It is not intended for production authentication.
